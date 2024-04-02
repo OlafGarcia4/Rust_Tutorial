@@ -1,7 +1,7 @@
 # Rust_Tutorial
 *This repo contains the notes and example code from the Rust languge book. The first chapter of the book has been combines with the second chapter since the first chapter consist of setting up Rust on you computer
 
-;[The Rust Programming Language book site ](https://doc.rust-lang.org/book/)
+[The Rust Programming Language book site ](https://doc.rust-lang.org/book/)
 
 Ch 1 Data Crates and Loops
     basic information regarding the setting up of the projects and break down of Rust conscepts
