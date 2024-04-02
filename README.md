@@ -1,5 +1,5 @@
 # Rust_Tutorial
-*This repo contains the notes and example code from the Rust languge book. The first chapter of the book has been combines with the second chapter since the first chapter consist of setting up Rust on you computer
+* This repo contains the notes and example code from the Rust languge book. The first chapter of the book has been combines with the second chapter since the first chapter consist of setting up Rust on you computer
 
 [The Rust Programming Language book site ](https://doc.rust-lang.org/book/)
 
