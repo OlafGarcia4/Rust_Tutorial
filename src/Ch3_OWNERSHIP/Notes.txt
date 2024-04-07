@@ -108,3 +108,16 @@ basic rules for references
 1. you can have 1 mutable reference or many immutable references
 2. References must always be valid
 3. Scope will determine how long a reference exists
+
+Slices
+
+Another way we can borrow data from a collection is by using slices. A slice a  nothing more that a reference to a range we can determine
+
+let x = [1,2,3,4,5,6,7,8]
+
+let y = &x[1..5]
+
+We use ranges to determine the size of the slice we want out of a collection. This can  be done with Strings but not string litterals as the
+String literals are already a slice of original string, this is why we can not mannipulate string literals as they are a immutable reference
+to the String in the binary.
+ 
