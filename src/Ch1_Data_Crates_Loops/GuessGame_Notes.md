@@ -25,7 +25,6 @@ however this makes it harder to read. Use a whitespace format to keep the method
 This is how we can use varibles with in a String to print. to do so we use the {} signs as placeholders
 then we can do the following to set the info
 
-e.g. 
     let x = 4;
     let y = 3;
 
@@ -39,17 +38,20 @@ the '&' works much like how pointer work with C, more on that on Ch4. In rust th
 After adding the the rand packege into the dependecied section in the TOML we need to build the project inorder 
 for the rand library to be loaded into the project.
 
-let guess: u32 = guess.trim().parse().expect("Please type a number!");
+    let guess: u32 = guess.trim().parse().expect("Please type a number!");
 
 This line is were we convert the String that we are taking from the user into a interger, in this case a u32.
 The variabale as the same name as the previous variable in the project, this is okay due to Shadowing. Shadowing is
 this feature is often used when you want to convert a value from one type to another type.
 
-.trim this trims the whitespaces before and after string
-.parse does exactly what it sounds, it parses the selected string to convert the string to another data type.
-.expect this is just error handling
+***.trim*** - This trims the whitespaces before and after string
 
-: u32 this is how we can specify the type of data that the variable should stored
+***.parse*** - Does exactly what it sounds, it parses the selected string to convert the 
+string to another data type.
+
+**.expect** - This is just error handling
+
+***: u32*** - This is how we can specify the type of data that the variable should stored
 
 loop { } will funtion as a while(1) loop, continueing until the programs is interupted.
 For this we added a break command so the game closes when the user guesses correctly
